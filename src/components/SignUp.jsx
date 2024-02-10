@@ -20,7 +20,7 @@ const SignUp = () => {
                             <button className="btn btn-success">LOGIN</button>
                         </div>
                         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <Link href='/'>New Users Click here</Link>
+                            <a href='/signup'>New Users Click here</a>
                         </div>
                     </div>
                 </div>
