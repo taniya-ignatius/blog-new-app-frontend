@@ -20,6 +20,8 @@ const SignUp = () => {
                 console.log(response.data)
                 if (response.data.status == "success") {
                     alert("Successfully Signed In")
+                    console.log(response.data.userData._id)
+                    sessionStorage.setItem("userid",response.data.userData._id)
                     navigate("/addpost")
                     setInput(
                         {   
